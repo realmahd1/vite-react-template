@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'IRANSansX';
+    src: local('IRANSansX'), url(./assets/fonts/woff/IRANSansX-Regular.woff) format('woff');
+}
+
+*:focus {
+    outline: none;
+}
+
+@layer base {
+    body {
+        direction: rtl;
+        -moz-font-feature-settings: "ss02";
+        -webkit-font-feature-settings: "ss02";
+        font-feature-settings: "ss02";
+        background-color: #ffffff;
+    }
+}
